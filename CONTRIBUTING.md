@@ -5,6 +5,9 @@ For a change, create a branch, edit `src/`, build, and run the test suites docum
 in README.md. This project uses plain JavaScript and Python standard-library tools.
 Keep new dependencies justified and document their license and update policy.
 
+For AI-assisted work, see [the OpenCode workflow](docs/AI_DEVELOPMENT.md) and
+the repository instructions in [AGENTS.md](AGENTS.md).
+
 For geometry changes, attach sanitized settings and before/after images. Check
 closed edges, winding, finite coordinates, nondegenerate faces, print bounds,
 texture continuity and connector clearances. Regenerate the scaffold if its source
