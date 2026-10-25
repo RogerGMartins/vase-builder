@@ -1,0 +1,15 @@
+{
+  "name": "vase-builder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline parametric modular planter designer with procedural mesh textures and 3MF export",
+  "license": "CC0-1.0",
+  "repository": {"type": "git", "url": "https://github.com/rogergmartins/vase-builder.git"},
+  "engines": {"node": "24.x"},
+  "scripts": {
+    "build": "python scripts/build.py",
+    "test": "python scripts/test.py",
+    "test:extended": "python scripts/test.py --extended",
+    "audit:source": "python scripts/audit.py"
+  }
+}
