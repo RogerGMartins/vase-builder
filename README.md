@@ -14,6 +14,7 @@ lathed vases or guaranteed watertight vessels.
 ## Features
 
 - Capsule, rounded rectangle, rectangle and faceted footprints, with shape-specific controls.
+- Extend the planter with **0–6 middle modules** between two end modules.
 - Configurable dimensions, wall thickness, rim reinforcement, edge finishes and print-space limits.
 - Procedural textures including hammered Mineral cells, waves, honeycomb, stone mosaic and Japandi reeds.
 - Raised ribs, curved ribbons and geometric profiles; depth, spacing, twist and rounding controls.
@@ -25,11 +26,51 @@ lathed vases or guaranteed watertight vessels.
 - Responsive worker-based preview, three mesh-detail levels, a full-detail inspection mode and bounded recovery.
 - Multi-plate 3MF export with process settings, a compact fit-test plate, settings JSON and OpenSCAD geometry snapshots.
 
-## Screenshots and previews
+## Choose your layout and options
 
-These are software-rendered geometry previews from the project, not browser
-screenshots or photographs of physical prints. They illustrate the design and
-texture behavior; the interface may differ from earlier previews.
+### Add middle compartments
+
+Start with **two end modules**, then add **up to six middle modules** to make a
+longer planter. The examples below show zero, one and two added middle modules;
+the end modules stay at the ends of the assembly.
+
+![Top-view diagram showing two end modules alone, then one and two green middle modules added between them](docs/images/modular-layouts.svg)
+
+*Illustrative layout diagram, not a mesh render or a scale drawing. Green marks
+the added middle modules; seam lines show where modules join.*
+
+Choose independent drained compartments, removable dividers, or continuous soil
+with open joints. **Module count and interior layout are separate options:** a
+module seam does not always mean a permanent dividing wall. Use the module-count
+controls, then inspect the Assembly view and the illustrated assembly guide.
+
+### Available options
+
+| Customize | Available choices |
+| --- | --- |
+| Layout | Two end modules plus 0–6 middle modules; independent compartments, removable dividers or open joints |
+| Footprint | Capsule, rounded rectangle, rectangle or faceted |
+| Body | Width, height, wall thickness, rim reinforcement and edge finishes |
+| Surface | Procedural relief, raised/sculpted profiles or an imported PNG/JPEG/WebP height map |
+| Texture adjustments | Depth, scale, density and pattern-specific controls; reset or texture-only randomization |
+| Drainage | Round holes or slots, optional grilles and mesh-retaining frames |
+| Base | No tray, matching nesting trays or wider saucers; optional tray joining clips |
+| Connections | Hardware-free connections or bolted joints; inspect the fit-test parts before printing |
+| Preview | Assembly, individual parts and fit-test views; color and full-detail inspection |
+| Downloads | Multi-plate 3MF, fit-test plate, editable settings JSON and an OpenSCAD mesh snapshot |
+
+### Geometry examples
+
+![Actual app preview of a green Mineral planter with two end compartments and two added middle compartments](docs/images/middle-compartments.png)
+
+*Actual browser capture from the app: **two end modules + two middle modules**,
+with independent drained compartments, Mineral relief and matching nesting trays.
+Body settings: 240 mm wide × 170 mm high. The completed responsive preview shows
+the four-compartment assembly; this is rendered geometry, not a physical print.*
+
+The following images are software-rendered geometry previews from the project,
+not browser screenshots or photographs of physical prints. They illustrate the
+design and texture behavior; the interface may differ from earlier previews.
 
 ![Modular planter with matching drip trays](docs/images/matching-trays.png)
 

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+  <title id="title">Grow your planter with middle modules</title>
+  <desc id="desc">Three schematic top views: two rounded end modules; two ends with one green middle module; and two ends with two green middle modules. Up to six middle modules can be added. Lines indicate module joins, not necessarily permanent interior walls.</desc>
+  <rect width="1120" height="650" rx="24" fill="#f4f2ec"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#243c34">
+    <text x="44" y="58" font-size="30" font-weight="700">More space? Add a middle module.</text>
+    <text x="44" y="92" font-size="18">Two end modules + 0–6 middle modules · schematic top view</text>
+    <rect x="810" y="44" width="20" height="20" rx="4" fill="#e3d5be" stroke="#6c6253"/>
+    <text x="840" y="60" font-size="16">End</text>
+    <rect x="918" y="44" width="20" height="20" rx="4" fill="#b4d4b8" stroke="#38654b"/>
+    <text x="948" y="60" font-size="16">Middle</text>
+
+    <text x="44" y="181" font-size="23" font-weight="700">Start small</text>
+    <text x="44" y="212" font-size="17">0 middle modules</text>
+    <g stroke="#6c6253" stroke-width="3">
+      <path d="M450 135 H510 V255 H450 A60 60 0 0 1 450 135Z" fill="#e3d5be"/>
+      <path d="M510 135 H570 A60 60 0 0 1 570 255 H510Z" fill="#e3d5be"/>
+    </g>
+    <text x="443" y="202" font-size="18">End</text>
+    <text x="553" y="202" font-size="18">End</text>
+
+    <text x="44" y="341" font-size="23" font-weight="700">Add a section</text>
+    <text x="44" y="372" font-size="17">1 middle module</text>
+    <g stroke-width="3">
+      <path d="M450 295 H510 V415 H450 A60 60 0 0 1 450 295Z" fill="#e3d5be" stroke="#6c6253"/>
+      <rect x="510" y="295" width="180" height="120" fill="#b4d4b8" stroke="#38654b"/>
+      <path d="M690 295 H750 A60 60 0 0 1 750 415 H690Z" fill="#e3d5be" stroke="#6c6253"/>
+    </g>
+    <text x="443" y="362" font-size="18">End</text>
+    <text x="600" y="362" text-anchor="middle" font-size="18" font-weight="700">+ Middle</text>
+    <text x="733" y="362" font-size="18">End</text>
+
+    <text x="44" y="501" font-size="23" font-weight="700">Keep growing</text>
+    <text x="44" y="532" font-size="17">2 middle modules shown</text>
+    <g stroke-width="3">
+      <path d="M450 455 H510 V575 H450 A60 60 0 0 1 450 455Z" fill="#e3d5be" stroke="#6c6253"/>
+      <rect x="510" y="455" width="180" height="120" fill="#b4d4b8" stroke="#38654b"/>
+      <rect x="690" y="455" width="180" height="120" fill="#b4d4b8" stroke="#38654b"/>
+      <path d="M870 455 H930 A60 60 0 0 1 930 575 H870Z" fill="#e3d5be" stroke="#6c6253"/>
+    </g>
+    <text x="443" y="522" font-size="18">End</text>
+    <text x="600" y="522" text-anchor="middle" font-size="18" font-weight="700">+ Middle</text>
+    <text x="780" y="522" text-anchor="middle" font-size="18" font-weight="700">+ Middle</text>
+    <text x="913" y="522" font-size="18">End</text>
+    <text x="44" y="621" font-size="17">Choose the interior separately: independent compartments, removable dividers or open joints.</text>
+  </g>
+</svg>
